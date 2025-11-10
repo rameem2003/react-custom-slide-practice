@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ReactImageZoom from 'react-image-zoom';
 import ServiceSlider from './ServiceSlider';
+import Memo from './components/Memo';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,8 @@ function App() {
 
     <div>
       {/* <ReactImageZoom {...props} /> */}
-      <ServiceSlider/>
+      {/* <ServiceSlider/> */}
+      <Memo/>
     </div>
 
 
